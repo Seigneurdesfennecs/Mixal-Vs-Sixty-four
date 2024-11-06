@@ -1,4 +1,4 @@
-# variable_font_exercice1
+#Mixal vs Sixty four 
 
 url de mon site :
-https://clarajacquemoud-prof.github.io/battle_font_exercice1/
+[https://seigneurdesfennecs.github.io/Mixal-vs-sixty-four/](https://seigneurdesfennecs.github.io/Mixal-vs-sixty-four/)

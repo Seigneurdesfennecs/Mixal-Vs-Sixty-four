@@ -1,0 +1,1047 @@
+
+
+.sixtyhour{
+  font-family: 'sixtyhour';
+
+}
+
+.mixal{
+  font-family: 'mixal';
+ 
+}
+
+
+
+body{
+  width: 100vw;
+  height: 100%;
+  background-color: rgb(54, 54, 54);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  cursor:url(../font/cursor.png), pointer;
+}
+
+.barreaux { 
+  position: fixed;
+  top: -350px;
+  right:0%;
+ font-family: 'mixal';
+font-size:2200px;
+color:#332e3a;
+font-variation-settings:"wght"100;
+z-index:2;
+}
+
+
+.barreaux{
+  animation-name: animationbarreaux; 
+  animation-fill-mode: forwards;/*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 10s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+  animation-delay : 8s;/*faire démarer une animation un peu en retard*/
+}
+
+
+@keyframes animationbarreaux { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+opacity:100%;
+position: fixed;
+  top: -350px;
+}
+50%{ /*ici on renseigne la valeur de départ*/
+  opacity:80%;
+  }
+100%{/*ici on renseigne la valeur de fin*/
+  opacity:0%;
+  position: fixed;
+  top: -2500px;
+}
+}
+
+
+
+#Ta { 
+  position: relative;
+  top: 4606px;
+  right: -100px;
+  font-family: 'mixal';
+  font-size: 1500px;
+  color: #332e3a;
+  font-variation-settings: "wght" 400;
+  z-index: 4;
+}
+
+
+#Tb { 
+  position: relative;
+  top: 3700px;
+  right: -900px;
+  font-family: 'mixal';
+  font-size: 1400px;
+  color: #332e3a;
+  font-variation-settings: "wght" 600;
+  z-index: 4;
+}
+/*oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
+
+#maxim1 { 
+  position: relative;
+  top: 200px;
+  left: 100px;
+ font-family: 'mixal';
+font-size: 200px;
+color:#41c7df;
+font-variation-settings:"wght"800;
+z-index: 1;
+}
+
+#maxim1{
+  animation-name: animationmaxim; 
+  animation-fill-mode: forwards;
+  animation-duration: 7s; 
+  animation-iteration-count: 1; 
+  animation-delay : 3s;
+
+}
+
+@keyframes animationmaxim { 
+  
+0%{ 
+  font-variation-settings:"wght"800;
+  color:#41c7df;
+  z-index: 1;
+  position: relative;
+  top: 200px;
+  left: 100px;
+
+}
+30%{ 
+  font-variation-settings:"wght"800;
+  color:#41c7df;
+  z-index: 1;
+  position: relative;
+  top: 600px;
+  left: 300px;
+}
+50%{ 
+  font-variation-settings:"wght"400;
+  z-index: 1;
+}
+65%{ 
+  font-variation-settings:"wght"450;
+  z-index: 1;
+}
+70%{ 
+  font-variation-settings:"wght"100;
+  z-index: 1;
+  color:#20636e;
+  }
+99%{
+  z-index: 3;
+  font-variation-settings:"wght"1000;
+  color:#41c7df;
+  top: 600px;
+  left: 300px;
+  opacity: 100%;
+}
+100%{
+  z-index: 3;
+  font-variation-settings:"wght"1000;
+  color:#41c7df;
+  top: 600px;
+  left: 300px;
+  opacity: 0;
+}
+
+}
+#maxim2{
+
+  position: relative;
+  top: 400px;
+  left: 300px;
+ font-family: 'mixal';
+font-size: 200px;
+color:#41c7df;
+font-variation-settings:"wght"1000;
+z-index: 3;
+opacity: 0%;
+}
+
+#maxim2{
+  animation-name: animationmaxim2; 
+  animation-fill-mode: forwards;
+  animation-duration: 9s; 
+  animation-iteration-count: 1; 
+  animation-delay : 10s;
+
+}
+
+
+@keyframes animationmaxim2 { 
+  
+0%{ 
+  z-index: 3;
+  font-variation-settings:"wght"800;
+  color:#41c7df;
+  top: 400px;
+  left: 300px;
+  opacity:100% ;
+
+}
+50%{ 
+  z-index: 3;
+  font-variation-settings:"wght"800;
+  color:#41c7df;
+  top: 400px;
+  left: 300px;
+  opacity:100% ;
+}
+
+60%{ 
+  font-variation-settings:"wght"1000;
+  color:#287e8d;
+  position: relative;
+  top: 900px;
+  left: 1500px
+}
+
+70%{ 
+  font-variation-settings:"wght"800;
+  color:#3cbed4;
+  position: relative;
+  top: 900px;
+  left: 1500px;
+  opacity:100% 
+}
+80%{ 
+  font-variation-settings:"wght"1500;
+  color:#1f5e69;
+  position: relative;
+  top: 1200px;
+  left: 400px;
+  }
+99%{
+  font-variation-settings:"wght"700;
+  color:#41c7df;
+  top: 1500px;
+  left: 300px;
+  opacity:50% ;
+  z-index: 3;
+}
+100%{
+  font-variation-settings:"wght"700;
+  color:#41c7df;
+  top: 1500px;
+  left: 300px;
+  opacity:0% ;
+  z-index: 3;
+}
+
+/*oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
+}
+#maxim3{
+
+  position: relative;
+  top: 1300px;
+  left: 300px;
+ font-family: 'mixal';
+font-size: 200px;
+color:#41c7df;
+font-variation-settings:"wght"700;
+z-index: 6;
+opacity: 20%;
+  animation-name: animationmaximin; 
+  animation-fill-mode: forwards;
+  animation-play-state:paused
+}
+
+#maxim3:hover{
+  animation-name: animationmaximin;
+  animation-play-state: running;
+font-size: 300px;
+opacity: 100%;
+  color:#0a3a42;
+  
+}
+
+#maxim3:hover ~ #suzan1 {
+  animation: tournetourne 1s forwards; 
+  animation-delay: 0s;
+}
+
+#maxim3:hover ~ #containerz {
+  animation: disappearAfterDelayz 1s forwards; 
+}
+
+
+/*oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
+#ch{
+  color:#41d4bb;
+  position: relative;
+  font-family: 'sixtyhour';
+  opacity: 0%;
+  z-index: 3;
+  
+}
+
+#ch{
+  animation-name: animationch; 
+  animation-fill-mode: forwards;
+  animation-duration: 3.5s; 
+  animation-iteration-count: 1; 
+  animation-delay : 9.5s;
+
+}
+
+@keyframes animationch { 
+  
+  0%{ 
+    font-variation-settings:"BLED"50;
+    font-variation-settings:"SCAN"-53;
+    font-size: 50px;
+    opacity: 70%;
+    top: -100px;
+    left: 491px;
+  
+  }
+
+  50%{ 
+    font-variation-settings:"BLED"50;
+    font-variation-settings:"SCAN"-53;
+    font-size: 115px;
+    opacity: 50%;
+    top: 100px;
+    left: 550px;
+  
+  }
+
+  100%{ 
+    font-variation-settings:"BLED"50;
+    font-variation-settings:"SCAN"-53;
+    font-size: 40px;
+    opacity: 0%;
+    top: -200px;
+    left: 491px;
+  
+  }
+
+}
+
+/*oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
+
+#suzan1 {
+  position: relative;
+  top: 743px;
+  left: 1454px;
+  font-family: 'sixtyhour';
+  font-size: 250px;
+  color: #d45741;
+  z-index: 3;
+  opacity: 1;
+}
+
+
+
+
+@keyframes tournetourne {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(5deg) scale(1.1);
+  }
+  50% {
+    transform: rotate(-5deg) scale(1.1);
+  }
+  75% {
+    transform: rotate(5deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+}
+  
+
+.Zzz{
+  color:#d45741;
+  position: relative;
+  z-index: 3;
+  font-family: 'sixtyhour';
+  font-variation-settings:"BLED"50;
+  font-variation-settings:"SCAN"-53;
+  font-size: 100px;
+}
+
+.Zzz{
+  animation-name: animationzorigine; 
+  animation-duration: 2s; 
+  animation-iteration-count: 1; 
+  animation-delay : 5s;
+
+}
+
+@keyframes animationzorigine { 
+
+  0%{ 
+   opacity: 0%;
+  }
+  100%{ 
+    opacity: 100%;
+  }
+}
+
+#Z{
+  top: 393px;
+  left: 1360px;
+}
+
+#Zz{
+  top: 204px;
+  left: 1280px;
+}
+
+
+#Zzz{
+  top: 230px;
+  left: 1437px;
+}
+
+#Z{
+  animation-name: animationz; 
+  animation-duration: 2s; 
+  animation-iteration-count: 7; 
+  animation-delay : 5s;
+
+}
+
+@keyframes animationz { 
+  
+0%{ 
+  top: 393px;
+  left: 1360px;
+}
+50%{ 
+  top: 285px;
+  left: 1360px;
+}
+100%{ 
+  top: 393px;
+  left: 1360px;
+}
+}
+
+#Zz{
+  animation-name: animationzz; 
+  animation-duration: 2s; 
+  animation-iteration-count: 8; 
+  animation-delay : 5.6s;
+
+}
+
+@keyframes animationzz { 
+  
+0%{ 
+  top: 204px;
+  left: 1280px;
+}
+50%{ 
+  top: 145px;
+  left: 1280px;
+}
+100%{ 
+  top: 204px;
+  left: 1280px;
+}
+}
+
+
+#Zzz{
+  animation-name: animationzzz; 
+  animation-duration: 2s; 
+  animation-iteration-count: 6; 
+  animation-delay : 5.2s;
+
+}
+
+@keyframes animationzzz { 
+  
+0%{ 
+  top: 230px;
+  left: 1437px;
+}
+50%{ 
+  top: 285px;
+  left: 1437px;
+}
+100%{ 
+  top: 230px;
+  left: 1437px;
+}
+}
+
+
+
+#containerz {
+  opacity: 1; 
+  transition: opacity 1s ease; /
+}
+
+
+#maxim3:hover ~ #containerz {
+  animation: disappearAfterDelayz 1s forwards; 
+}
+
+@keyframes disappearAfterDelayz {
+  0% {
+    opacity: 1; 
+  }
+  100% {
+    opacity: 0; 
+   
+  }
+
+  }
+
+/*oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
+
+#suzan1 {
+  opacity: 1; 
+  animation: disappearAfterDelay 1s forwards; 
+  animation-delay: 30s; 
+}
+#maxim3 {
+  opacity: 1; 
+  animation: disappearAfterDelay 1s forwards; 
+  animation-delay: 30s; 
+}
+@keyframes disappearAfterDelay {
+  0% {
+    opacity: 1; 
+  }
+  100% {
+    opacity: 0; 
+  }
+}
+/*oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
+
+#maxim4{
+
+  position: relative;
+  top: 22%;
+  right: -400px;
+ font-family: 'mixal';
+font-size: 200px;
+color:#41c7df;
+font-variation-settings:"wght"300;
+z-index: 1;
+opacity: 1;
+animation-name: animationmaxim4;
+animation-fill-mode: forwards;
+animation-play-state:paused;
+animation-duration: 3s; 
+animation-iteration-count: 1; 
+}
+
+#maxim4:hover{
+  animation-name: animationmaxim4;
+  animation-play-state: running;
+}
+
+
+@keyframes animationmaxim4 { 
+  
+  0%{ 
+    top: 22%;
+    right: -400px;
+    font-variation-settings:"wght"300;
+  }
+  
+  100%{ 
+    top: 22%;
+  right: -200px;
+  font-variation-settings:"wght"200;
+
+  }
+  
+  }
+
+
+  #maxim6{
+
+    position: relative;
+    Top: 31%;
+    right: -600px;
+   font-family: 'mixal';
+  font-size: 200px;
+  color:#41c7df;
+  font-variation-settings:"wght"600;
+  z-index: 1;
+  opacity: 1;
+  animation-name: animationmaxim6;
+  animation-fill-mode: forwards;
+  animation-play-state:paused;
+  animation-duration: 3s; 
+  animation-iteration-count: 1; 
+  }
+  #maxim6:hover{
+    animation-name: animationmaxim6;
+    animation-play-state: running;
+  }
+  
+  @keyframes animationmaxim6 { 
+    
+    0%{ 
+      Top: 31%;
+      right: -600px;
+      font-variation-settings:"wght"600;
+    }
+  
+    100%{ 
+      Top: 31%;
+      right: -1000px;
+      font-variation-settings:"wght"300;
+    }
+    }
+
+
+
+    #maxim5{
+
+      position: fixed;
+      top: 4606px;
+  right: -100px;
+     font-family: 'mixal';
+    font-size: 200px;
+    color:#41c7df;
+    font-variation-settings:"wght"300;
+    z-index: 1;
+    opacity: 1;
+    animation-name: animationmaxim5;
+    animation-fill-mode: forwards;
+    animation-play-state:paused;
+    animation-duration: 4s; 
+    animation-iteration-count: 1; 
+    }
+    #maxim5:hover{
+      animation-name: animationmaxim5;
+      animation-play-state: running;
+    }
+    
+    @keyframes animationmaxim5 { 
+      
+      0%{ 
+        top: 4606px;
+        right: -100px;
+      }
+      25%{ 
+        top: 3700px;
+        right: -400px;
+      }
+      50%{ 
+        top: 3700px;
+        right: -700px;
+      }
+      75%{ 
+        top: 3700px;
+        right: -800px;
+      }
+      100%{ 
+        top: 3700px;
+        right: -900px;
+      }
+      }
+      /*oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
+      #suzan2 {
+        position: fixed;
+        transform: rotate(7deg);
+        top: 22%;
+        right: 76%;
+        font-family: 'sixtyhour';
+        font-variation-settings: "bled 100";
+        font-size: 50px;
+        color: #d45741;
+        z-index: index 6;
+        opacity: 0;
+        animation-name: cherche;
+        animation-play-state:paused;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+      }
+      
+      #maxim4:hover ~ #suzan2 {
+        animation: cherche 2s forwards; 
+        animation-play-state:running;
+      }
+     
+      
+      
+      
+      @keyframes cherche {
+        0% {
+          top: 22%;
+          right: 120%;
+          opacity: 1;
+      }
+      25% {
+        top: 21%;
+      
+      }
+      50% {
+        top: 22%;
+        right: -101%;
+      
+      }
+      75% {
+        top: 21%;
+        right: -251%;
+       
+      }
+      99% {
+        top: 22%;
+        right: -401%;
+       opacity: 1;
+     }
+ 
+      100% {
+        top: 22%;
+        right: -401%;
+        opacity: 0;
+      }
+  }
+
+
+
+
+
+
+  #suzan3 {
+    position: fixed;
+    top: 70%;
+    right: -5%;
+    font-family: 'sixtyhour';
+    font-size: 75px;
+    color: #d45741;
+    font-variation-settings: "bled 100";
+    z-index: 6;
+    opacity: 0;
+    animation-name: cherchee;
+    animation-play-state:paused;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+  }
+  
+  #maxim6:hover ~ #suzan3 {
+    animation: cherchee 3s forwards; 
+    animation-play-state:running;
+  }
+ 
+  
+  
+  
+  @keyframes cherchee {
+    0% {
+  
+      top: 70%;
+      right: -151%;
+      opacity: 1;
+  }
+  25% {
+    top: 70%;
+   
+  
+  }
+  50% {
+    top: 72%;
+    right: 251%;
+   opacity: 1;  
+  }
+  75% {
+    top: 42%;
+    right: 251%;
+      opacity:0;
+ 
+   
+  }
+  99% {
+    top: 42%;
+    right: 251%;
+      opacity:0;
+ }
+
+  100% {
+    top: 42%;
+    right: 251%;
+      opacity:0;
+  }
+}
+      /*oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
+
+      #Tc { 
+        position: relative;
+        transform: rotate(90deg);
+        bottom: -1951px;
+        right: 78%;
+        font-family: 'mixal';
+        font-size: 1400px;
+        color: #332e3a;
+        font-variation-settings: "wght" 100;
+        z-index: 4;
+      }
+      
+      
+      #Td { 
+        position: relative;
+        transform: rotate(270deg);
+        bottom: -100px;
+        right: -50%;
+        right: -900px;
+        font-family: 'mixal';
+        font-size: 1400px;
+        color: #332e3a;
+        font-variation-settings: "wght" 100;
+        z-index: 4;
+      }
+/*oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
+.invisible-div {
+  position: absolute; 
+  width: 2000px;
+  height: 800px;
+  top: 6220px;
+  left: 100px; 
+  background-color: transparent; 
+  z-index: 7;
+}
+
+
+@keyframes AnimationMquifuis {
+  0% {
+    bottom: 1132px; 
+    right: -191%; 
+    color: #41c7df; 
+    transform: rotate(0deg); 
+    font-variation-settings: "wght" 600; 
+    opacity: 1; 
+}
+10% {
+  bottom: 832px; 
+  right: -191%; 
+  font-size: 100px; 
+  color: #41c7df; 
+  transform: rotate(0deg); 
+  font-variation-settings: "wght" 200; 
+}
+20% {
+  bottom: 732px; 
+  right: -101%; 
+  font-size: 150px; 
+  color: #41c7df; 
+  transform: rotate(5deg); 
+  font-variation-settings: "wght" 200; 
+}
+30% {
+    bottom: 600px; 
+    right: -72%; 
+    font-size: 150px; 
+    color: #449cb7; 
+    transform: rotate(12deg); 
+    font-variation-settings: "wght" 350; 
+}
+35% {
+  bottom: 600px; 
+  right: -80%; 
+  font-size: 350px; 
+  color: #53c0e1; 
+  transform: rotate(0deg); 
+  font-variation-settings: "wght" 450; 
+}
+40% {
+  bottom: 300px; 
+  right: -100%; 
+  font-size: 250px; 
+  color: #53c0e1; 
+  transform: rotate(12deg); 
+  font-variation-settings: "wght" 450; 
+
+}
+
+50% {
+  bottom: 200px; 
+  right: -100%; 
+  font-size: 250px; 
+  color: #53c0e1; 
+  transform: rotate(0deg); 
+  font-variation-settings: "wght" 450; 
+
+}
+55% {
+  bottom: 102px; 
+  right: -80%; 
+    color: #5bc7e7; 
+    transform: rotate(0deg); 
+    font-variation-settings: "wght" 600;
+}
+60% {
+  bottom: 82px; 
+    right: -80%;  
+  font-size: 250px; 
+  color: #2e91a2; 
+  transform: rotate(15deg); 
+  font-variation-settings: "wght" 500; 
+}
+70% {
+    bottom: 182px; 
+    right: -80%; 
+    font-size: 200px; 
+    color: #41c7df; 
+    transform: rotate(240deg); 
+    font-variation-settings: "wght" 600; 
+}
+80% {
+  bottom: 142px; 
+  right: -80%; 
+    color: #5bc7e7; 
+    transform: rotate(360deg); 
+    font-variation-settings: "wght" 600;
+}
+90% {
+  bottom: 152px; 
+    right: -80%;  
+  font-size: 250px; 
+  color: #247785; 
+  transform: rotate(550deg); 
+  font-variation-settings: "wght" 600; 
+}
+100% {
+    bottom: 192px; 
+    right: -80%; 
+    font-size: 200px; 
+    color: #41c7df; 
+    transform: rotate(720deg); 
+    font-variation-settings: "wght" 600; 
+    opacity: 1; 
+}
+}
+
+
+
+.invisible-div:hover ~ #maximfinal {
+  animation: AnimationMquifuis 15s forwards; 
+}
+
+#maximfinal {
+  position: relative;
+  bottom: 192px;
+  right: -80%;
+  font-family: 'mixal';
+  font-size: 200px;
+  color: #41c7df;
+  font-variation-settings: "wght" 600;
+  z-index: 1;
+  opacity: 0; 
+}
+
+
+
+
+.invisible-div:hover ~ #suzanfinal {
+  animation: Animationsapparait  15s forwards; 
+}
+
+#suzanfinal {
+  position: relative;
+  bottom: 1432px; 
+  right: -70%;
+  font-family: 'sixtyhour';
+  font-size: 175px;
+  color: #d45741;
+  font-variation-settings: "SCAN -53";
+  z-index: O;
+  opacity: 0; 
+}
+
+
+@keyframes Animationsapparait  {
+  0% {
+    bottom: 1432px; 
+    right: -70%;
+    font-variation-settings: "SCAN -53";
+    font-size: 175px;
+    transform: rotate(0deg); 
+    opacity: 1; 
+
+}
+50% {
+
+    right: -70%;
+  font-variation-settings: "SCAN -100";
+  font-size: 175px;
+ 
+  transform: rotate(0deg); 
+
+}
+100% {
+  bottom: 732px; 
+  right: -80%; 
+  font-size: 175px;
+  opacity: 1; 
+  transform: rotate(5deg); 
+
+}
+}
+
+
+#end {
+  position: relative;
+  bottom: 732px; 
+    right: 0%;
+  font-family: 'mixal';
+  font-size: 200px;
+  color: #41c7df;
+  font-variation-settings: "wght" 600;
+  z-index: 1;
+  opacity: 0; 
+
+}
+
+
+.invisible-dive {
+  position: absolute; 
+  width: 2000px;
+  height: 800px;
+  top: 7094px;
+  left: 100px; 
+  background-color: transparent; 
+  z-index: 7;
+  
+}
+
+
+.invisible-dive:hover ~ #end {
+  animation: Animationsend  5s forwards; 
+  animation-duration: 2s; 
+  animation-iteration-count: 6; 
+}
+
+
+
+@keyframes Animationsend {
+  0% {
+    bottom: 632px; 
+    right: 0%;
+    font-size: 175px;
+  }
+100% {
+  bottom: 632px; 
+  right: -100%; 
+  font-size: 175px;
+  opacity: 1; 
+ 
+
+}
+}
